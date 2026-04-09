@@ -1,0 +1,47 @@
+#Nombre-Grupo {
+  margin: 0;
+  font-size: 5rem;
+}
+.Asignatura {
+  margin-top: 5px;
+  font-size: 3rem;
+}
+header {
+  background-color: #01037ee7;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+-presentacion{
+    display: flex;
+    flex-direction: row;
+} 
+
+.imagen-texto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*espacio entre la imagen y el texto*/
+  gap: 10px;
+  border :10px black;
+}
+.imagen-presentacion {
+  margin-left: 20px;
+  padding: 5px 30px;
+  width: 400px;
+  height: 300px;
+}
+section {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  border-color: black;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+.imagen {
+  width: 900px;
+  height: 400px;
+
+}
